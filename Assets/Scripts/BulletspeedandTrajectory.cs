@@ -23,9 +23,10 @@ public class BulletspeedandTrajectory : MonoBehaviour
     void Update()
     {
         Bulletmovement();
+        Damage(bulletDamage);
     }
-    void Damage() {
-        hp = hp-bulletDamage;
+    void Damage(float attackDamage) {
+        hp =  hp - attackDamage;
 
       }
      }

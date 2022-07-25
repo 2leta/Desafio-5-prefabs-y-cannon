@@ -409,6 +409,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletDirection: {x: 0, y: 0.3, z: 1}
   bulletSpeed: 1.2
+  bulletDamage: 2
+  hp: 18.74
 --- !u!1 &8789856679240333246
 GameObject:
   m_ObjectHideFlags: 0
